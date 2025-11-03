@@ -1,0 +1,38 @@
+html *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+
+header{
+    background-color: rgb(59, 167, 255);
+    height: 100px;
+    width: 100%;
+    position: relative;
+}
+
+header::before{
+    position: absolute;
+    content: "";
+    background-image: url(/imgs/pattern.png);
+    background-size: 37%;
+    background-position: 40.1% 5%;
+    height: 100%;
+    width: 100%;
+}
+
+header::after{
+    position: absolute; 
+    content: "";
+    background-image: url(/imgs/svgs/logo.svg);
+    height: 50%;
+    width: 250px;
+    background-repeat: no-repeat;
+    margin: 10px;
+    bottom: 0;
+
+}
+
+main, footer{
+    padding: 10px;
+}
