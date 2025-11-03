@@ -9,6 +9,7 @@ header{
     height: 100px;
     width: 100%;
     position: relative;
+    
 }
 
 header::before{
@@ -36,3 +37,81 @@ header::after{
 main, footer{
     padding: 10px;
 }
+
+section > h1{
+    font-size: 45px;
+    line-height: 2.7rem;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding: 6px 0;
+}
+
+.dati-sotto-titolo{
+    color: grey;
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.dati-sotto-titolo-2{
+    font-size: 14px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 170, 255);
+}
+
+figure{
+    margin-top: 20px;
+    width: 100%;
+    
+}
+
+figure img{
+    height: 100%;
+    min-height: 380px;
+}
+
+figure figcaption{
+    font-size: 13px;
+    font-weight: 800;
+}
+
+article{
+    margin: 23px 0 30px;
+    font-size: 18px;
+    line-height: 19px;
+}
+
+
+ul{
+    margin-left: 16px;
+    font-size: 17px
+
+}
+
+table{
+    margin: 30px 0 0;
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 16.9px;
+}
+
+tr:first-child{
+    background-color: rgb(38, 168, 255);
+    color: white;
+    
+}
+tr:nth-child(even){
+    background-color: lightblue;
+}
+
+td:first-child, td:nth-child(2){
+    width: 25%;
+}
+
+tr *{
+    text-align: start;
+}
+
+
