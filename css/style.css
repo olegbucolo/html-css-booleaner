@@ -35,7 +35,7 @@ header::after{
 }
 
 main, footer{
-    padding: 10px;
+    padding-left: 10px;
 }
 
 section > h1{
@@ -43,7 +43,7 @@ section > h1{
     line-height: 2.7rem;
     font-weight: bold;
     letter-spacing: -1px;
-    padding: 6px 0;
+    padding: 20px 0 5px;
 }
 
 .dati-sotto-titolo{
@@ -114,4 +114,19 @@ tr *{
     text-align: start;
 }
 
+footer p{
+    font-weight: bolder;
+    font-size: 20px;
+    letter-spacing: -1px;
+    color: grey;
+    
+}
 
+footer img{
+    padding-top: 10px;
+    display: block;
+    width: 250px;
+}
+footer a:last-child img{
+    padding-bottom: 3rem;
+}
